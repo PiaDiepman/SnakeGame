@@ -6,18 +6,24 @@
 
 class Snake {
  public:
+  Snake();
   enum class Direction { kUp, kDown, kLeft, kRight };
 
   Snake(int grid_width, int grid_height)
       : grid_width(grid_width),
         grid_height(grid_height),
         head_x(grid_width / 2),
-        head_y(grid_height / 2) {}
+        head_y(grid_height / 2),
+        prev_x(grid_width),
+        prev_y(grid_height) {};
 
   void Update();
 
   void GrowBody();
   bool SnakeCell(int x, int y);
+
+  void headDistanceTravelled(float &h_tot_dist, float h_x, float head_y, float &prev_x, float &prev_y);
+  float getHeadDistanceTravelled();
 
   Direction direction = Direction::kUp;
 
@@ -26,6 +32,9 @@ class Snake {
   bool alive{true};
   float head_x;
   float head_y;
+  float prev_x;
+  float prev_y;
+  float total_head_distance_travelled;
   std::vector<SDL_Point> body;
 
  private:

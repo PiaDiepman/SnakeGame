@@ -1,0 +1,25 @@
+Lisa 8
+Marge 15
+Homer 27
+Bart 56
+Maggie 88 
+Millhouse 20
+Barney 1
+Moe 90
+Willie 44
+Grandpa 6
+
+
+
+Krusty 13
+Flanders 11
+Otto 6
+Nelson 18
+Todd 10
+DrNick 6
+Apu 14
+Crumby 6
+Santa 0
+
+Pia 16
+Patty 2
