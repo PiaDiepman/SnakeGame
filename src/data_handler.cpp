@@ -27,7 +27,7 @@ std::map<string, int> DataHandler::readGameHistoryMap()
   int gamer_score;
   std::map<string, int> gamers_map;
   std::map<string, int>::iterator iter;
-  const std::string gameDataDirectory{"../data"};
+  const std::string gameDataDirectory{"../GameHistory"};
 
   std::ifstream filestream(gameDataDirectory + "/" + "scoreboard.txt");
 
@@ -58,7 +58,7 @@ void DataHandler::writeGameHistoryMapSorted(std::map<string, int> aux_map)
 
   std::ofstream dataFile;
 
-  dataFile.open("../data/scoreboard.txt", std::ios::in | std::ios::out | std::ios::app);
+  dataFile.open("../GameHistory/scoreboard.txt", std::ios::in | std::ios::out | std::ios::app);
   if (!dataFile.is_open())
   {
     std::cout << " Cannot open file" << std::endl;
@@ -98,31 +98,13 @@ void DataHandler::writeGameHistoryMap(std::map<string, int> gamers_map)
 
   std::ofstream dataFile;
 
-  dataFile.open("../data/scoreboard.txt", std::ios::in | std::ios::out | std::ios::app);
+  dataFile.open("../GameHistory/scoreboard.txt", std::ios::in | std::ios::out | std::ios::app);
   if (!dataFile.is_open())
   {
     std::cout << " Cannot open file" << std::endl;
   }
   else
   {
-  //   for (auto itr = gamers_map.begin(); itr != gamers_map.end(); itr++)
-  //   {
-  //     if( itr == gamers_map.end())
-  //     {
-  //       std::cout << "[" << itr->first << "," << itr->second << "]\n";
-  //     }
-      
-  //   }
-    // for (std::pair<std::string, int> element : gamers_map)
-    // {
-    //   //Accessing key from element
-    //   std::string name = element.first;
-    //   //Accessing value from element
-    //   int count = element.second;
-    //   std::cout << name << " :: " << count << std::endl;
-    // }
-    // dataFile << "\n" << "***Game history from the current session***"<< "\n";
-
     for (it = gamers_map.begin(); it != gamers_map.end(); it++)
     {
       dataFile << (*it).first << " " << (*it).second << "\n";
