@@ -11,7 +11,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 ## Overview
 This project builds the classic game - Snake. The player moves the snake around the screen with the aim of collecting as much food as possible without the snake colliding into itself. With every piece of food consumed, the snake grows in size and increases speed - making the game more challenging. The player controls the snakes movement with the arrow keys on the keyboard.
 
-## Capstone Project Ruberic Criteria:
+## Capstone Project Ruberic Criteria
 Loops, Functions and I/O
   - The project is clearly organised into functions and a variety of control structures are used.
   - Through the game menu, the project interacts with the gamer by reading/writing scores from/to an external text file on request.
