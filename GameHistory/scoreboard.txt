@@ -25,3 +25,6 @@ Pia 16
 Patty 2
 Selma 8
 MrBurns 8
+Pia 2
+Maggie 5
+P 1

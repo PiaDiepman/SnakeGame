@@ -22,17 +22,14 @@ class Snake {
   void GrowBody();
   bool SnakeCell(int x, int y);
 
-  void headDistanceTravelled(float &h_tot_dist, float h_x, float head_y, float &prev_x, float &prev_y);
-  float getHeadDistanceTravelled();
-
   Direction direction = Direction::kUp;
 
   float speed{0.1f};
   int size{1};
   bool alive{true};
   float head_x;
-  float head_y;
   float prev_x;
+  float head_y;  
   float prev_y;
   float total_head_distance_travelled;
   std::vector<SDL_Point> body;

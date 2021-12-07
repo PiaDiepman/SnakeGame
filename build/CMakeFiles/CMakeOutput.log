@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-1080-gcp - x86_64
+The system is: Linux - 4.15.0-20-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,11 +10,11 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/workspace/SnakeGame/build/CMakeFiles/3.13.0-rc2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/pia/Projects/SnakeGame/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/g++-7 
-Build flags: -std=c++17
+Compiler: /usr/bin/c++ 
+Build flags: 
 Id flags:  
 
 The output was:
@@ -23,81 +23,85 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/workspace/SnakeGame/build/CMakeFiles/3.13.0-rc2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/pia/Projects/SnakeGame/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_85c9f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_85c9f.dir/build.make CMakeFiles/cmTC_85c9f.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_85c9f.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_85c9f.dir/testCCompiler.c.o   -c /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_85c9f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85c9f.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_85c9f.dir/testCCompiler.c.o  -o cmTC_85c9f 
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_acb92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_acb92.dir/build.make CMakeFiles/cmTC_acb92.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_acb92.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_acb92.dir/testCCompiler.c.o   -c /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_acb92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acb92.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_acb92.dir/testCCompiler.c.o  -o cmTC_acb92 
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_04463/fast"
-/usr/bin/make -f CMakeFiles/cmTC_04463.dir/build.make CMakeFiles/cmTC_04463.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_04463.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_04463.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_04463
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04463.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_04463.dir/CMakeCCompilerABI.c.o  -o cmTC_04463 
+Run Build Command:"/usr/bin/make" "cmTC_2202d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2202d.dir/build.make CMakeFiles/cmTC_2202d.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2202d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2202d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2202d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2202d.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_2202d.dir/CMakeCCompilerABI.c.o  -o cmTC_2202d 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04463' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN4EM3B.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_04463 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_04463.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2202d' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWXTjrJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2202d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2202d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2202d' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_04463/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_04463.dir/build.make CMakeFiles/cmTC_04463.dir/build]
-  ignore line: [make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_04463.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_04463.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_04463]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04463.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_04463.dir/CMakeCCompilerABI.c.o  -o cmTC_04463 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2202d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2202d.dir/build.make CMakeFiles/cmTC_2202d.dir/build]
+  ignore line: [make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2202d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_2202d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_2202d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2202d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_2202d.dir/CMakeCCompilerABI.c.o  -o cmTC_2202d ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04463' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccN4EM3B.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_04463 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_04463.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2202d' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWXTjrJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2202d /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2202d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccN4EM3B.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWXTjrJ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -106,21 +110,23 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_04463] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [cmTC_2202d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
     arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_04463.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_2202d.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -132,35 +138,35 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--pop-state] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
   collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
   collapse library dir [/lib/../lib] ==> [/lib]
   collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_390b6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_390b6.dir/build.make CMakeFiles/cmTC_390b6.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_390b6.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_390b6.dir/feature_tests.c.o   -c /home/workspace/SnakeGame/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_390b6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_390b6.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_390b6.dir/feature_tests.c.o  -o cmTC_390b6 
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5f190/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f190.dir/build.make CMakeFiles/cmTC_5f190.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f190.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_5f190.dir/feature_tests.c.o   -c /home/pia/Projects/SnakeGame/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5f190
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f190.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5f190.dir/feature_tests.c.o  -o cmTC_5f190 
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -170,17 +176,17 @@ make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8af9f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8af9f.dir/build.make CMakeFiles/cmTC_8af9f.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8af9f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_8af9f.dir/feature_tests.c.o   -c /home/workspace/SnakeGame/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8af9f
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8af9f.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_8af9f.dir/feature_tests.c.o  -o cmTC_8af9f 
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a75ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a75ac.dir/build.make CMakeFiles/cmTC_a75ac.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a75ac.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_a75ac.dir/feature_tests.c.o   -c /home/pia/Projects/SnakeGame/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a75ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a75ac.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a75ac.dir/feature_tests.c.o  -o cmTC_a75ac 
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -190,17 +196,17 @@ make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77757/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77757.dir/build.make CMakeFiles/cmTC_77757.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_77757.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_77757.dir/feature_tests.c.o   -c /home/workspace/SnakeGame/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_77757
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77757.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_77757.dir/feature_tests.c.o  -o cmTC_77757 
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8b478/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b478.dir/build.make CMakeFiles/cmTC_8b478.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b478.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_8b478.dir/feature_tests.c.o   -c /home/pia/Projects/SnakeGame/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8b478
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b478.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8b478.dir/feature_tests.c.o  -o cmTC_8b478 
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -208,77 +214,77 @@ make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1a97a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1a97a.dir/build.make CMakeFiles/cmTC_1a97a.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1a97a.dir/testCXXCompiler.cxx.o
-/usr/bin/g++-7    -std=c++17    -o CMakeFiles/cmTC_1a97a.dir/testCXXCompiler.cxx.o -c /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1a97a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a97a.dir/link.txt --verbose=1
-/usr/bin/g++-7  -std=c++17     CMakeFiles/cmTC_1a97a.dir/testCXXCompiler.cxx.o  -o cmTC_1a97a 
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_49976/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49976.dir/build.make CMakeFiles/cmTC_49976.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49976.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_49976.dir/testCXXCompiler.cxx.o -c /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_49976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49976.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_49976.dir/testCXXCompiler.cxx.o  -o cmTC_49976 
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8aed6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8aed6.dir/build.make CMakeFiles/cmTC_8aed6.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8aed6.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/g++-7    -std=c++17    -o CMakeFiles/cmTC_8aed6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8aed6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aed6.dir/link.txt --verbose=1
-/usr/bin/g++-7  -std=c++17    -v CMakeFiles/cmTC_8aed6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8aed6 
+Run Build Command:"/usr/bin/make" "cmTC_59588/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59588.dir/build.make CMakeFiles/cmTC_59588.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_59588.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_59588.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_59588
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59588.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_59588.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_59588 
 Using built-in specs.
-COLLECT_GCC=/usr/bin/g++-7
+COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
 OFFLOAD_TARGET_NAMES=nvptx-none
 OFFLOAD_TARGET_DEFAULT=1
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) 
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-std=c++1z' '-v' '-o' 'cmTC_8aed6' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9vpDTm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8aed6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8aed6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-std=c++1z' '-v' '-o' 'cmTC_8aed6' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59588' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwAsCAn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_59588 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_59588.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59588' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8aed6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8aed6.dir/build.make CMakeFiles/cmTC_8aed6.dir/build]
-  ignore line: [make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_8aed6.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/g++-7    -std=c++17    -o CMakeFiles/cmTC_8aed6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_8aed6]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8aed6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/g++-7  -std=c++17    -v CMakeFiles/cmTC_8aed6.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8aed6 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_59588/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_59588.dir/build.make CMakeFiles/cmTC_59588.dir/build]
+  ignore line: [make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_59588.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_59588.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_59588]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59588.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_59588.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_59588 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/g++-7]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
   ignore line: [OFFLOAD_TARGET_DEFAULT=1]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~16.04) ]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-std=c++1z' '-v' '-o' 'cmTC_8aed6' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9vpDTm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8aed6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8aed6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59588' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwAsCAn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_59588 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_59588.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc9vpDTm.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwAsCAn.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -292,12 +298,14 @@ Parsed CXX implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8aed6] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [cmTC_59588] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbegin.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
@@ -306,7 +314,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_8aed6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_59588.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -314,7 +322,7 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
   collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
@@ -332,17 +340,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e477a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e477a.dir/build.make CMakeFiles/cmTC_e477a.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e477a.dir/feature_tests.cxx.o
-/usr/bin/g++-7    -std=c++17    -std=c++1z -o CMakeFiles/cmTC_e477a.dir/feature_tests.cxx.o -c /home/workspace/SnakeGame/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e477a
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e477a.dir/link.txt --verbose=1
-/usr/bin/g++-7  -std=c++17     CMakeFiles/cmTC_e477a.dir/feature_tests.cxx.o  -o cmTC_e477a 
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_00ea3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_00ea3.dir/build.make CMakeFiles/cmTC_00ea3.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00ea3.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_00ea3.dir/feature_tests.cxx.o -c /home/pia/Projects/SnakeGame/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_00ea3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00ea3.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_00ea3.dir/feature_tests.cxx.o  -o cmTC_00ea3 
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -405,17 +413,17 @@ make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_99590/fast"
-/usr/bin/make -f CMakeFiles/cmTC_99590.dir/build.make CMakeFiles/cmTC_99590.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_99590.dir/feature_tests.cxx.o
-/usr/bin/g++-7    -std=c++17    -std=c++14 -o CMakeFiles/cmTC_99590.dir/feature_tests.cxx.o -c /home/workspace/SnakeGame/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_99590
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99590.dir/link.txt --verbose=1
-/usr/bin/g++-7  -std=c++17     CMakeFiles/cmTC_99590.dir/feature_tests.cxx.o  -o cmTC_99590 
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3cc07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cc07.dir/build.make CMakeFiles/cmTC_3cc07.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3cc07.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_3cc07.dir/feature_tests.cxx.o -c /home/pia/Projects/SnakeGame/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3cc07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cc07.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_3cc07.dir/feature_tests.cxx.o  -o cmTC_3cc07 
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -478,17 +486,17 @@ make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_34665/fast"
-/usr/bin/make -f CMakeFiles/cmTC_34665.dir/build.make CMakeFiles/cmTC_34665.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_34665.dir/feature_tests.cxx.o
-/usr/bin/g++-7    -std=c++17    -std=c++11 -o CMakeFiles/cmTC_34665.dir/feature_tests.cxx.o -c /home/workspace/SnakeGame/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_34665
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34665.dir/link.txt --verbose=1
-/usr/bin/g++-7  -std=c++17     CMakeFiles/cmTC_34665.dir/feature_tests.cxx.o  -o cmTC_34665 
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5aa49/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5aa49.dir/build.make CMakeFiles/cmTC_5aa49.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5aa49.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_5aa49.dir/feature_tests.cxx.o -c /home/pia/Projects/SnakeGame/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5aa49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa49.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_5aa49.dir/feature_tests.cxx.o  -o cmTC_5aa49 
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -551,17 +559,17 @@ make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp
+Change Dir: /home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_37c8d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_37c8d.dir/build.make CMakeFiles/cmTC_37c8d.dir/build
-make[1]: Entering directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_37c8d.dir/feature_tests.cxx.o
-/usr/bin/g++-7    -std=c++17    -std=c++98 -o CMakeFiles/cmTC_37c8d.dir/feature_tests.cxx.o -c /home/workspace/SnakeGame/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_37c8d
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37c8d.dir/link.txt --verbose=1
-/usr/bin/g++-7  -std=c++17     CMakeFiles/cmTC_37c8d.dir/feature_tests.cxx.o  -o cmTC_37c8d 
-make[1]: Leaving directory '/home/workspace/SnakeGame/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_90542/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90542.dir/build.make CMakeFiles/cmTC_90542.dir/build
+make[1]: Entering directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_90542.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_90542.dir/feature_tests.cxx.o -c /home/pia/Projects/SnakeGame/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_90542
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90542.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_90542.dir/feature_tests.cxx.o  -o cmTC_90542 
+make[1]: Leaving directory '/home/pia/Projects/SnakeGame/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
