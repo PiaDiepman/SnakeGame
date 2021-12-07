@@ -19,15 +19,15 @@ The project uses Object Oriented Programming techniques. --> The Capstopn projec
 Classes use appropriate access specifiers for class members. --> The classes uses dedicted class members to access class memebers. Class objects communicates with memebes by setters and getters.
 The project makes use of references in function declarations- --> Project definies the function where references in declaraton are used: HeadDistanceTravel() in snake.h.
 
-# Loops, Functions and I/O
+Loops, Functions and I/O
   - The project is clearly organised into functions and a variety of control structures are used.
   - Through the game menu, the project interacts with the gamer by reading/writing scores from/to an external text file on request.
 
-# Object Orientated Protocol
+Object Orientated Protocol
   - The project code is organized into classes with class attributes to hold the data, and class methods to perform tasks.
   - All class data members are explicitly specified as public, protected, or private.
 
-# Memory Management
+Memory Management
   - At least two variables are defined as references, or two functions use pass-by-reference in the project code.
 
 
