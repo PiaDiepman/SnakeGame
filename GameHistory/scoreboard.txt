@@ -21,7 +21,3 @@ Apu 14
 Crumby 6
 Santa 0
 
-Pia 16
-Patty 2
-Selma 8
-MrBurns 8

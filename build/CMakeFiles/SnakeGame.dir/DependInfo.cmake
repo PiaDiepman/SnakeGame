@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/workspace/SnakeGame/src/controller.cpp" "/home/workspace/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/controller.cpp.o"
-  "/home/workspace/SnakeGame/src/data_handler.cpp" "/home/workspace/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/data_handler.cpp.o"
-  "/home/workspace/SnakeGame/src/game.cpp" "/home/workspace/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/game.cpp.o"
-  "/home/workspace/SnakeGame/src/game_manager.cpp" "/home/workspace/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/game_manager.cpp.o"
-  "/home/workspace/SnakeGame/src/gamer.cpp" "/home/workspace/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/gamer.cpp.o"
-  "/home/workspace/SnakeGame/src/main.cpp" "/home/workspace/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/main.cpp.o"
-  "/home/workspace/SnakeGame/src/renderer.cpp" "/home/workspace/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/renderer.cpp.o"
-  "/home/workspace/SnakeGame/src/snake.cpp" "/home/workspace/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/snake.cpp.o"
+  "/home/pia/Projects/SnakeGame/src/controller.cpp" "/home/pia/Projects/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/controller.cpp.o"
+  "/home/pia/Projects/SnakeGame/src/data_handler.cpp" "/home/pia/Projects/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/data_handler.cpp.o"
+  "/home/pia/Projects/SnakeGame/src/game.cpp" "/home/pia/Projects/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/game.cpp.o"
+  "/home/pia/Projects/SnakeGame/src/game_manager.cpp" "/home/pia/Projects/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/game_manager.cpp.o"
+  "/home/pia/Projects/SnakeGame/src/gamer.cpp" "/home/pia/Projects/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/gamer.cpp.o"
+  "/home/pia/Projects/SnakeGame/src/main.cpp" "/home/pia/Projects/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/main.cpp.o"
+  "/home/pia/Projects/SnakeGame/src/renderer.cpp" "/home/pia/Projects/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/renderer.cpp.o"
+  "/home/pia/Projects/SnakeGame/src/snake.cpp" "/home/pia/Projects/SnakeGame/build/CMakeFiles/SnakeGame.dir/src/snake.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

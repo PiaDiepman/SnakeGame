@@ -20,6 +20,11 @@ Object Orientated Protocol
   - The project code is organized into classes with class attributes to hold the data, and class methods to perform tasks.
   - All class data members are explicitly specified as public, protected, or private.
 
+Memory Management
+  - At least two variables are defined as references, or two functions use pass-by-reference in the project code.
+
+
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
