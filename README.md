@@ -8,6 +8,18 @@ The Capstone Project gives you a chance to integrate what you've learned through
 
 In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
 
+## Overview
+This project builds the classic game - Snake. The player moves the snake around the screen with the aim of collecting as much food as possible without the snake colliding into itself. With every piece of food consumed, the snake grows in size and increases speed - making the game more challenging. The player controls the snakes movement with the arrow keys on the keyboard. The player's score is recorded after each game and the players has the option to view the Top Ten Scores via the game menu.
+
+## Capstone Project Ruberic Criteria
+Loops, Functions and I/O
+  - The project is clearly organised into functions and a variety of control structures are used.
+  - Through the game menu, the project interacts with the gamer by reading/writing scores from/to an external text file on request.
+
+Object Orientated Protocol
+  - The project code is organized into classes with class attributes to hold the data, and class methods to perform tasks.
+  - All class data members are explicitly specified as public, protected, or private.
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
