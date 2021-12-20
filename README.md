@@ -21,7 +21,7 @@ Object Orientated Protocol
   - All class data members are explicitly specified as public, protected, or private.
 
 Memory Management
-  - At least two variables are defined as references, or two functions use pass-by-reference in the project code.
+  - The project follows the Resource Acquisition Is Initialization pattern where appropriate, by allocating objects at compile-time, initializing objects when they are declared, and utilizing scope to ensure their automatic destruction.
 
 
 
